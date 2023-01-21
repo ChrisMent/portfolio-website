@@ -164,7 +164,7 @@ a {
     text-decoration: none;
 }
 
-p{
+p {
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -180,7 +180,7 @@ p{
 .btn {
     display: block;
     font-size: 20px;
-    background-color:#3a3a3a;
+    background-color: #3a3a3a;
     color: coral;
     padding: 10px 15px;
     text-align: center;
@@ -192,7 +192,7 @@ p{
 .btn:hover {
     background-color: coral;
     color: white;
-    
+
 }
 
 .text-highlighted {
@@ -244,18 +244,20 @@ p{
     color: white;
 }
 
+
+
 /*------ Welcome Section ------*/
 
 #welcome {
     min-height: 500px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url(../img/banner-light.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../img/banner-light.png);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-#welcome::after{
+#welcome::after {
     content: "";
     display: block;
     clear: both;
@@ -276,7 +278,7 @@ p{
 
 }
 
-#welcome .welcome-img img{
+#welcome .welcome-img img {
     float: left;
     width: 100%;
     border-radius: 100%;
@@ -288,3 +290,161 @@ p{
 
 }
 
+/*------ About Section ------*/
+
+#about {
+    background-color: #3a3a3a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#about .about-content {
+    float: left;
+    width: 70%;
+    color: white;
+    padding: 20px;
+
+}
+
+#about .about-content h2 {
+    font-size: 40px;
+
+}
+
+#about .about-img {
+    float: left;
+    width: 30%;
+    padding: 20px;
+
+}
+
+#about .about-img img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+/*------ Skills Section ------*/
+
+#skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#skills::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#skills .skill {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 35px;
+
+
+}
+
+#skills .material-symbols-outlined {
+    font-size: 100px;
+    color: coral;
+
+}
+
+/*------ Contact Page ------*/
+
+#contact-options {
+    margin-top: -150px;
+    padding-bottom: 100px;
+
+}
+
+#contact-heading {
+    min-height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../img/banner-light.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#contact-heading .heading-content {
+    color: white;
+    padding: 130px 0px;
+
+}
+
+#contact-heading .heading-content h2 {
+    font-size: 40px;
+
+}
+
+#contact-heading .heading-content p {
+    font-size: 20px;
+
+}
+
+#contact-options .contact-option {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    text-align: center;
+    padding: 35px;
+    background-color: #3a3a3a;
+    color: white;
+    min-height: 300px;
+    border-radius: 10px;
+
+}
+
+#contact-options .contact-option h3 {
+    font-size: 25px;
+    color: coral;
+    padding: 15px;
+
+}
+
+#contact-options .contact-option p {
+    line-height: 1.7em;
+
+}
+
+#contact-options .material-symbols-outlined {
+    font-size: 50px;
+
+}
+
+#contact-options::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+/*------ Footer ------*/
+
+#main-footer {
+    background-color: #3a3a3a;
+    min-height: 120px;
+    padding: 52px;
+
+}
+
+#main-footer p {
+    text-align: center;
+    color: white;
+
+}
+
+#main-footer p a {
+    color: white;
+
+}

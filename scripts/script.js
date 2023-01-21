@@ -11,3 +11,11 @@ async function includeHTML() {
         }
     }
 }
+
+
+$(function () {
+    $('ul li a').click(function () {
+        $('ul li').removeClass();
+        $($(this).attr('href')).addClass('active');
+    });
+});
